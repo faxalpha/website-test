@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Academic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <!-- Replace with your own image -->
+                        <img src="profile.jpg" alt="Your Name">
+                    </div>
+                    <div class="profile-text">
+                        <h2>About Me</h2>
+                        <p>I am a [Your Position] at [Your Institution]. My research focuses on [Your Research Areas].</p>
+                        <p>My work explores [brief description of your academic interests and approach].</p>
+                        <p>I received my PhD from [University] in [Year], where I worked with [Advisor/Lab].</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="container">
+                <h2>Recent News</h2>
+                <ul class="news-list">
+                    <li>
+                        <span class="date">May 2025</span>
+                        <p>New paper accepted at [Conference/Journal].</p>
+                    </li>
+                    <li>
+                        <span class="date">March 2025</span>
+                        <p>Presenting research at [Conference].</p>
+                    </li>
+                    <li>
+                        <span class="date">January 2025</span>
+                        <p>Received [Grant/Award].</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:your.email@institution.edu">your.email@institution.edu</a></p>
+                    <p>Office: [Building Name, Room Number]</p>
+                    <p>Address: [Department, Institution, Address]</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank">Google Scholar</a>
+                        <a href="#" target="_blank">ORCID</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name</p>
+        </div>
+    </footer>
+</body>
+</html>
